@@ -192,7 +192,7 @@
 - **Prep Level:** MID
 - **Summary:** The challenge is to develop algorithmic trading strategies for the BTC/USDT cryptocurrency market, aiming to outperform benchmark returns while effectively managing risk. Participants are expected to use historical data, preprocess it, design strategies using statistical and mathematical models (including potentially machine learning), backtest their strategies considering transaction costs, and implement robust risk management. The deliverables include algorithm code, backtesting results, a risk management plan, a presentation, and a comprehensive report.
 - **Domain:** Algorithmic Trading, Finance, Data Analysis, Statistical Modeling, Machine Learning, Cryptocurrency
-- **PDF:** [View PDF](InterIIT_Tech_Meet_PDFs/2023_MidPrep_Zelta%20Labs.pdf)
+- **PDF:** [View PDF](InterIIT_Tech_Meet_PDFs/2023_MidPrep_ZeltaLabs.pdf)
 
 #### Prep Level: LOW
 
