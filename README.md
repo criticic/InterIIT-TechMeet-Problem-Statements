@@ -2,11 +2,44 @@
 
 ## Table of Contents
 
+- [2025 (14.0) - IIT Patna - Resonating Cascades](#2025-140---iit-patna---resonating-cascades)
 - [2024 (13.0) - IIT Bombay - The Timeless Technopolis](#2024-130---iit-bombay---the-timeless-technopolis)
 - [2023 (12.0) - IIT Madras - Shores of Discovery](#2023-120---iit-madras---shores-of-discovery)
 - [2022 (11.0) - IIT Kanpur - A Respawned Reality](#2022-110---iit-kanpur---a-respawned-reality)
 - [2021 (10.0) - IIT Kharagpur - To Newer Horizons: In the Wake of the Pandemic](#2021-100---iit-kharagpur---to-newer-horizons-in-the-wake-of-the-pandemic)
 - [2020 (9.0) - IIT Guwahati - Pandemic, Paranoia, and Possibilities](#2020-90---iit-guwahati---pandemic-paranoia-and-possibilities)
+
+### 2025 (14.0) - IIT Patna - Resonating Cascades
+
+#### Prep Level: HIGH
+
+##### LAT Aerospace
+
+- **Prep Level:** HIGH
+- **Summary:** The problem requires participants to design a powered-lift fixed wing for a Short Take-Off and Landing (STOL) aircraft. The objective is to generate exceptionally high lift coefficients by integrating a fixed-wing design with a thrust-producing device. The proposed solution must be rigorously validated through computational fluid dynamics (CFD) analysis and/or experimental wind tunnel testing, contributing to the development of a next-generation 8-seater hybrid-electric STOL aircraft for enhanced regional air travel.
+- **Domain:** Aerospace Engineering, Aerodynamics, Computational Fluid Dynamics (CFD), STOL Aircraft, Wing Design, Powered Lift
+- **PDF:** [View PDF](InterIIT_Tech_Meet_PDFs/2025_HighPrep_LATAerospace.pdf)
+
+##### Ebullient Securities
+
+- **Prep Level:** HIGH
+- **Summary:** The challenge is to create a robust and systematic algorithmic trading strategy using two provided anonymized time-series datasets, EBX & EBY. Each dataset includes a core price-like series along with hundreds of masked features. The key tasks are to design a strategy that performs consistently across both datasets, adheres to an intra-day flat requirement, and avoids forward bias ("no peeking"). The competition is split into two phases: a mid-term evaluation using only the given features and an end-term where participants are free to engineer new derived features.
+- **Domain:** Algorithmic Trading, Quantitative Finance, Time Series Analysis, Financial Markets, Data Science, Backtesting
+- **PDF:** [View PDF](InterIIT_Tech_Meet_PDFs/2025_HighPrep_EbullientSecurities.pdf)
+
+##### Pathway
+
+- **Prep Level:** HIGH
+- **Summary:** Participants are tasked with building a production-grade, streaming-native agentic application for the financial sector using the Pathway framework. The application must leverage real-time data streaming to maintain up-to-date metrics, incrementally update deterministic models, and deploy ambient AI agents that react to new information without prompts. While the specific use case is agnostic, suggested applications include Real-Time AI Investment Decisions, Live Credit Risk Evaluation, and Continuous Fraud Monitoring, with a strong emphasis on creating a system a real company could deploy.
+- **Domain:** Real-time Data Processing, Streaming Analytics, Artificial Intelligence, Generative AI, Financial Technology (FinTech), Agentic AI, Machine Learning
+- **PDF:** [View PDF](InterIIT_Tech_Meet_PDFs/2025_HighPrep_Pathway.pdf)
+
+##### Arista
+
+- **Prep Level:** HIGH
+- **Summary:** The problem statement involves designing and validating an AI-assisted, client-aware Radio Resource Management (RRM) system for enterprise Wi-Fi. Leveraging Arista's dedicated additional radio for continuous spectrum sensing, participants must develop a system that improves real-world client Quality of Experience (QoE). The solution should blend AP-side and client-side data to make intelligent, dynamic decisions on channel selection, transmit power, channel width, and client steering, while maintaining network stability.
+- **Domain:** Wireless Networking, WiFi, Radio Resource Management (RRM), Machine Learning, Artificial Intelligence, Telecommunications, Network Optimization
+- **PDF:** [View PDF](InterIIT_Tech_Meet_PDFs/2025_HighPrep_Arista.pdf)
 
 ### 2024 (13.0) - IIT Bombay - The Timeless Technopolis
 
