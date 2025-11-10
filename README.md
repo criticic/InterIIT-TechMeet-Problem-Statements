@@ -41,6 +41,43 @@
 - **Domain:** Wireless Networking, WiFi, Radio Resource Management (RRM), Machine Learning, Artificial Intelligence, Telecommunications, Network Optimization
 - **PDF:** [View PDF](InterIIT_Tech_Meet_PDFs/2025_HighPrep_Arista.pdf)
 
+#### Prep Level: MID
+
+##### Eternal
+
+- **Prep Level:** MID
+- **Summary:** Develop a comprehensive autonomous mobile robot system capable of navigating warehouse environments and performing vertical scanning operations on storage racks up to 2 meters in height. The system must capture high-resolution visual data from bottom to top (or vice versa), process the information (such as QR codes), and store it for real-time inventory analysis and management.
+- **Domain:** Robotics, Autonomous Navigation, SLAM, Computer Vision, Warehouse Automation, Inventory Management
+- **PDF:** [View PDF](InterIIT_Tech_Meet_PDFs/2025_MidPrep_Eternal.pdf)
+
+##### Adobe
+
+- **Prep Level:** MID
+- **Summary:** Design and prototype a lightweight, mobile-first AI image editor for 2030 that demonstrates how creative editing can become faster, more intuitive, and energy-efficient on low-compute devices. The solution should combine design thinking (wireframes), market research, and the implementation of two key AI-powered features or editing workflows, such as object removal or style transfer, using open-source models.
+- **Domain:** Artificial Intelligence, Computer Vision, Generative AI, Mobile Development, UI/UX Design, Image Editing
+- **PDF:** [View PDF](InterIIT_Tech_Meet_PDFs/2025_MidPrep_Adobe.pdf)
+
+##### ISRO (GeoNLI)
+
+- **Prep Level:** MID
+- **Summary:** The challenge is to design and build a functional prototype that empowers non-expert users to interpret and analyze satellite imagery using a natural language interface. The platform must be able to perform three key tasks: Captioning (generating a descriptive summary of the image), Grounding (localizing objects within the image based on a text query), and Visual Question Answering (VQA) about the attributes of objects and features in the image.
+- **Domain:** Artificial Intelligence, Computer Vision, Natural Language Processing (NLP), Vision-Language Models (VLM), Remote Sensing, Satellite Imagery Analysis
+- **PDF:** [View PDF](InterIIT_Tech_Meet_PDFs/2025_MidPrep_ISRO_VLM.pdf)
+
+##### ISRO (ASIC Development)
+
+- **Prep Level:** MID
+- **Summary:** This project involves the study, simulation, and HDL design of a Delta-Sigma Analog to Digital Converter (ADC). The objective is to achieve higher Effective Number of Bits (ENOBs) at higher sampling rates by incorporating a suitable Delta-Sigma modulator and a digital/decimation filter. Participants are required to model and simulate the ADC, and then design and implement the digital filter at the Register Transfer Level (RTL) using Verilog/VHDL, followed by ASIC design flow steps like synthesis and layout.
+- **Domain:** VLSI Design, ASIC Development, Analog to Digital Converters (ADC), Digital Signal Processing (DSP), HDL (Verilog/VHDL), Semiconductor Design
+- **PDF:** [View PDF](InterIIT_Tech_Meet_PDFs/2025_MidPrep_ISRO_VLSI.pdf)
+
+##### Observe.AI
+
+- **Prep Level:** MID
+- **Summary:** The objective is to design a system that accepts a natural-language query related to a specific business event (e.g., "Why are escalations happening on calls?") and generates an evidence-based causal explanation. The system must process large-scale conversational transcripts to infer causal relationships between dialogue dynamics and the specified event, identifying key contributing factors and behaviors. The system should also be able to handle conversational follow-ups.
+- **Domain:** Natural Language Processing (NLP), Causal Inference, Conversational AI, Data Science, Machine Learning, Speech Analytics
+- **PDF:** [View PDF](InterIIT_Tech_Meet_PDFs/2025_MidPrep_ObserveAI.pdf)
+
 ### 2024 (13.0) - IIT Bombay - The Timeless Technopolis
 
 #### Prep Level: HIGH
