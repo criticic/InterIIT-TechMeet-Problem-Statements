@@ -78,6 +78,68 @@
 - **Domain:** Natural Language Processing (NLP), Causal Inference, Conversational AI, Data Science, Machine Learning, Speech Analytics
 - **PDF:** [View PDF](InterIIT_Tech_Meet_PDFs/2025_MidPrep_ObserveAI.pdf)
 
+#### Prep Level: LOW
+
+##### Qtrino
+
+- **Prep Level:** LOW
+- **Summary:** Design and demonstrate a post-quantum secure DTLS 1.3 communication channel between a server and a RISC-V-based IoT device operating on a bare-metal environment (no OS). Participants must integrate PQC algorithms (like Kyber/Dilithium) into the wolfSSL/wolfCrypt library, optimize for constrained hardware (latency, memory), and demonstrate successful key exchange and authentication.
+- **Domain:** Cybersecurity, Cryptography (PQC), Embedded Systems, RISC-V, IoT, Network Protocols
+- **PDF:** [View PDF](InterIIT_Tech_Meet_PDFs/2025_LowPrep_Qtrino.pdf)
+
+##### Drona Aviation
+
+- **Prep Level:** LOW
+- **Summary:** Build an on-board stabilization and precision-motion system for a nano-drone (MagisV2) without GPS. The system must achieve stable hover and execute precise user-triggered 10-20 cm micro-movements using Optical Flow, ToF, and IMU data. Key requirements include real-time velocity estimation, cascaded control loops (Position-Velocity-Attitude), and robust sensor fusion.
+- **Domain:** Robotics, Control Systems, Drones, Sensor Fusion, Embedded Systems
+- **PDF:** [View PDF](InterIIT_Tech_Meet_PDFs/2025_LowPrep_Drona.pdf)
+
+##### Game Connect (GDAI)
+
+- **Prep Level:** LOW
+- **Summary:** Design and build a "3 Level Platformer Game" (2D or 3D) that demonstrates clear level progression and difficulty curves. The game must include platformer-specific mechanics (jumping, traps, physics) and a meaningful win condition. There are no engine restrictions (Godot/Unity/Unreal recommended), and the focus is on creativity, level design quality, and gameplay feel.
+- **Domain:** Game Development, Game Design, UI/UX
+- **PDF:** [View PDF](InterIIT_Tech_Meet_PDFs/2025_LowPrep_GDAI.pdf)
+
+#### Prep Level: NO PREP
+
+##### Jilo Health
+
+- **Prep Level:** NO PREP
+- **Summary:** A continuous hackathon-style event (12 hours) focusing on AI/ML in Healthcare. The problem statement involves building a system using "Vibe Coding" (Lovable platform), Agentic Backends (Supabase), and Cloud Architecture. Core topics include Computer Vision (CNNs/Image Processing), LLM Finetuning, and Multimodal AI Fusion.
+- **Domain:** AI/ML, Healthcare, Computer Vision, Mobile App Development, Cloud Architecture, Hackathon
+- **PDF:** [View PDF](InterIIT_Tech_Meet_PDFs/2025_NoPrep_JiloHealth.pdf)
+
+##### Genuity
+
+- **Prep Level:** NO PREP
+- **Summary:** A series of compact coding tasks focusing on Algorithmic Optimisation for scalable AI systems. Tasks cover Data Structure Transformations, Loss Engineering, Autonomous Knowledge Graph Construction, and LLM-Based Decision Modules. Participants are expected to have basic familiarity with Topological Data Analysis (TDA), such as simplicial complexes and persistent homology.
+- **Domain:** Algorithms, Optimization, Data Structures, AI/ML, Topological Data Analysis (TDA)
+- **PDF:** [View PDF](InterIIT_Tech_Meet_PDFs/2025_NoPrep_Genuity.pdf)
+
+##### STEMvibe (Math Bowl)
+
+- **Prep Level:** NO PREP
+- **Summary:** A mathematics competition consisting of four rounds over two days. Rounds 1 and 2 are typical olympiads; Round 3 focuses on numerical questions (speed/precision); Round 4 format is undisclosed. The syllabus covers typical undergraduate Math Olympiad topics including Algebra, Number Theory, Geometry, Calculus, and Combinatorics.
+- **Domain:** Mathematics, Problem Solving
+- **PDF:** [View PDF](InterIIT_Tech_Meet_PDFs/2025_NoPrep_MathBowl.pdf)
+
+#### Prep Level: NA
+
+##### Students' Academic Conference
+
+- **Prep Level:** NA
+- **Summary:** A platform for undergraduate and postgraduate students to present research papers aligned with the theme "Atmanirbhar Innovation." Papers must have been previously presented at a conference or published in a reputed journal. Categories include Category 1 (CS/AI/Elec), Category 2 (Mech/Civil/Bio), and Category 3 (Pure Sciences/Mgmt/Humanities). Evaluation is based on a standardized rubric covering methodology, originality, and presentation.
+- **Domain:** Academic Research, Innovation, Multidisciplinary Science & Technology
+- **PDF:** [View PDF](InterIIT_Tech_Meet_PDFs/2025_NA_SAC.pdf)
+
+##### Engineers' Conclave
+
+- **Prep Level:** NA
+- **Summary:** A showcase for student-built projects addressing contemporary challenges under the theme "Atmanirbhar Innovation." Projects can be Patent-Filed, from Student Technical Teams, or Faculty-Student Collaborations. Evaluation focuses on the Project Submission, Presentation/Poster, Prototype functionality, and bonus points for Patent Filing or Industry Collaboration.
+- **Domain:** Engineering, Innovation, Prototyping, Intellectual Property, R&D
+- **PDF:** [View PDF](InterIIT_Tech_Meet_PDFs/2025_NA_EC.pdf)
+
 ### 2024 (13.0) - IIT Bombay - The Timeless Technopolis
 
 #### Prep Level: HIGH
