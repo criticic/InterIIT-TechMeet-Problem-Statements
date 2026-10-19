@@ -14,7 +14,7 @@ A year-by-year archive of problem statements from the Inter-IIT Tech Meet, with 
 
 ### 2026 (15.0) - IIT Guwahati - Asymptotic Synapses
 
-**Theme:** Asymptotic Synapses · **Dates:** 11–14 December 2026
+**Theme:** Asymptotic Synapses
 
 #### Prep Level: HIGH
 
