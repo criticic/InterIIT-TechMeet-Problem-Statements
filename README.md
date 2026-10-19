@@ -2,12 +2,47 @@
 
 ## Table of Contents
 
+- [2026 (15.0) - IIT Guwahati - Asymptotic Synapses](#2026-150---iit-guwahati---asymptotic-synapses)
 - [2025 (14.0) - IIT Patna - Resonating Cascades](#2025-140---iit-patna---resonating-cascades)
 - [2024 (13.0) - IIT Bombay - The Timeless Technopolis](#2024-130---iit-bombay---the-timeless-technopolis)
 - [2023 (12.0) - IIT Madras - Shores of Discovery](#2023-120---iit-madras---shores-of-discovery)
 - [2022 (11.0) - IIT Kanpur - A Respawned Reality](#2022-110---iit-kanpur---a-respawned-reality)
 - [2021 (10.0) - IIT Kharagpur - To Newer Horizons: In the Wake of the Pandemic](#2021-100---iit-kharagpur---to-newer-horizons-in-the-wake-of-the-pandemic)
 - [2020 (9.0) - IIT Guwahati - Pandemic, Paranoia, and Possibilities](#2020-90---iit-guwahati---pandemic-paranoia-and-possibilities)
+
+### 2026 (15.0) - IIT Guwahati - Asymptotic Synapses
+
+**Theme:** Asymptotic Synapses · **Dates:** 11–14 December 2026
+
+#### Prep Level: HIGH
+
+##### IMC Trading
+
+- **Prep Level:** HIGH
+- **Summary:** Build an autonomous dealer (market-maker) bot that prices customer requests for quote (RFQs), competes with other dealers in a shared competitive auction, and manages inventory risk to maximise net PnL across nine rounds of increasing difficulty. The single Python `Dealer` class must quote and hedge under hidden customer limits, published settlement relationships, and one-price-move risk, with scoring split across net PnL, customer volume, and filled orders.
+- **Domain:** Quantitative Finance, Market Microstructure, Algorithmic Trading, Market Making, Inventory Risk Management, Python
+- **PDF:** [View PDF](InterIIT_Tech_Meet_PDFs/2026_HighPrep_IMCTrading.pdf)
+
+##### Sarvam AI
+
+- **Prep Level:** HIGH
+- **Summary:** Build a training-data pipeline and fine-tune a streaming speech-to-speech model that listens to live Hindi speech mixed with English and speaks the English translation while the speaker is still talking. Part A requires a reproducible dataset of up to 200 hours with verbatim IndicVoices transcripts, word-level alignments, and streaming-friendly English targets; Part B requires fine-tuning a shared base checkpoint with Bulbul v3 (`shubh`, en-IN) target audio and deploying it as a low-latency WebSocket service, scored on intent, entities, latency, translation quality, and naturalness.
+- **Domain:** AI/ML, Speech-to-Speech Translation, Streaming Speech Processing, Hindi/Hinglish, Dataset Engineering, Model Fine-Tuning, Low-Latency Systems
+- **PDF:** [View PDF](InterIIT_Tech_Meet_PDFs/2026_HighPrep_Sarvam.pdf)
+
+##### ideaForge
+
+- **Prep Level:** HIGH
+- **Summary:** Given a UAV image, an approximate location within a 5 km radius, and camera/attitude/altitude metadata, determine the geographic coordinate of the image centre by matching it to a satellite reference map for both daytime electro-optical (EO) and thermal infrared (IR) imagery. The system must return "no match" when not confident and run fully offline on an NVIDIA Jetson Orin NX 16 GB after a 24–48 hour pre-processing window over the evaluation region, judged on position-error bands, availability, and latency.
+- **Domain:** Computer Vision, UAV Geo-Localisation, Cross-View and Cross-Modal Matching, Thermal Imagery, Deep Learning, Edge AI (Jetson Orin NX), GNSS-Denied Navigation
+- **PDF:** [View PDF](InterIIT_Tech_Meet_PDFs/2026_HighPrep_ideaForge.pdf)
+
+##### Rime.ai
+
+- **Prep Level:** HIGH
+- **Summary:** An open research challenge addressing four interconnected failures of Indian voice technology: scarce clean training data, cross-lingual voice cloning, misreading Hinglish text, IDs, amounts, and names, and the lack of automatic quality metrics. Teams pick one of two tracks, nominate a lead part, and build a functional system against a reproducible baseline with rigorous evaluation. Track 1 is a four-part multilingual voice system spanning low-resource data pipelines, cross-lingual cloning from 30 seconds of audio, learned text normalisation for Hinglish/amounts/IDs, and a jury-free evaluator for naturalness, pronunciation, and speaker similarity. Track 2 is a recursive self-improving loop in which a speech captioner and a description-conditioned generator for Hindi and Tamil train each other over at least two rounds.
+- **Domain:** AI/ML, Text-to-Speech (TTS), Cross-Lingual Voice Cloning, Multilingual NLP, Speech Evaluation, Speech Captioning, Iterative Self-Improvement, Low-Resource Languages, Indian Voice Technology
+- **PDF:** [View PDF](InterIIT_Tech_Meet_PDFs/2026_HighPrep_Rime.pdf)
 
 ### 2025 (14.0) - IIT Patna - Resonating Cascades
 

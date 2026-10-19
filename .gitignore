@@ -1,0 +1,6 @@
+# Internal working folder — never publish (contains raw PS PDFs, research, prior submissions, sponsor recon).
+internal/
+
+# OS / editor cruft
+.DS_Store
+*.swp
