@@ -1,6 +1,6 @@
 # Inter-IIT Tech Meet Problem Statements
 
-A year-by-year archive of problem statements from the Inter-IIT Tech Meet, with concise summaries and links to the original PDFs. The 2026 edition (15.0), hosted by IIT Guwahati, is themed **Asymptotic Synapses**. The archive links 62 PDFs across seven editions; 27 entries are retained without a public PDF and marked *Not available*.
+A year-by-year archive of problem statements from the Inter-IIT Tech Meet, with concise summaries and links to the original PDFs. The 2026 edition (15.0), hosted by IIT Guwahati, is themed **Asymptotic Synapses**.
 
 ## Table of Contents
 
@@ -35,16 +35,55 @@ A year-by-year archive of problem statements from the Inter-IIT Tech Meet, with 
 ##### ideaForge
 
 - **Prep Level:** HIGH
-- **Summary:** Given a UAV image, an approximate location within 5 km, and camera/attitude/altitude metadata, determine the image centre's coordinates by matching it to satellite imagery for both daytime electro-optical (EO) and thermal infrared (IR), returning "no match" when unsure. The system must run offline on an NVIDIA Jetson Orin NX 16 GB after a 24–48 hour pre-processing window over a 100 km × 100 km evaluation region, judged on position-error bands, minimum availability and latency.
-- **Domain:** Computer Vision, UAV Geo-Localisation, Cross-View and Cross-Modal Matching, Thermal Imagery, Deep Learning, Edge AI (Jetson Orin NX), GNSS-Denied Navigation
+- **Summary:** Given a single thermal (LWIR) UAV image (320×256, 16-bit, nominal 92° HFOV), a prior location within 5 km, and altitude/attitude/camera metadata, determine the **UAV's WGS84 coordinates** by matching it to a supplied **6-band 0.3 m Airbus optical reference**, returning `Not Matched` when unsure. The official scope is **IR-only**; altitudes 100–3000 m; day/night and seasonal flights over varied terrain (semi-urban, farmland, tropical, desert); the reference is **not orthorectified**; no DSM and no paired training data. The system must run offline on an NVIDIA Jetson Orin NX 16 GB at **15 W**, **one image at a time within 30 s**. Scoring is geodesic error normalised by `σ = sqrt(8² + (3·GSD)²)` with points +10/+6/+3/0/−20; compute time, storage and preprocessing time are tie-breakers.
+- **Domain:** Computer Vision, UAV Geo-Localisation, Cross-Modal Matching (LWIR → visible/NIR), Thermal Imagery, Low-Resolution Vision, Deep Learning, Edge AI (Jetson Orin NX, 15 W), GNSS-Denied Navigation
 - **PDF:** [View PDF](InterIIT_Tech_Meet_PDFs/2026_HighPrep_ideaForge.pdf)
 
 ##### Rime.ai
 
 - **Prep Level:** HIGH
-- **Summary:** An open research challenge on four failures of Indian voice technology: scarce clean data, cross-lingual cloning, misreading Hinglish/IDs/amounts, and the lack of automatic quality metrics. Teams choose one of two tracks and nominate a lead part. Track 1 builds a four-part multilingual system covering a low-resource data pipeline, 30-second cross-lingual cloning, learned text normalisation and a jury-free evaluator; Track 2 builds a recursive loop in which a Hindi/Tamil speech captioner and description-conditioned generator improve each other over at least two rounds.
+- **Summary:** An open research challenge on four failures of Indian voice technology: scarce clean data, cross-lingual cloning, misreading Hinglish/IDs/amounts, and the lack of automatic quality metrics. Teams choose one of two tracks; only Track 1 nominates a lead part. Track 1 builds a four-part multilingual system covering a low-resource data pipeline, 30-second cross-lingual cloning, reading raw agent text (Hinglish, amounts, IDs, names) and a jury-free evaluator. Track 2 builds a recursive loop in which a Hindi/Tamil speech captioner and description-conditioned generator improve each other over at least one round beyond a reported round-0 baseline.
 - **Domain:** AI/ML, Text-to-Speech (TTS), Cross-Lingual Voice Cloning, Multilingual NLP, Speech Evaluation, Speech Captioning, Iterative Self-Improvement, Low-Resource Languages, Indian Voice Technology
 - **PDF:** [View PDF](InterIIT_Tech_Meet_PDFs/2026_HighPrep_Rime.pdf)
+
+#### Prep Level: MID
+
+##### xTerra Robotics
+
+- **Prep Level:** MID
+- **Summary:** Train a reinforcement-learning policy for high-speed blind locomotion on xTerra's DHAV-Hy wheeled-legged quadruped, using only joint states and IMU data with no cameras or LiDAR. The 50 Hz, 16-dim policy drives 12 position-controlled leg joints and 4 velocity-controlled wheels across flat and uneven terrain with ~10 cm obstacles, carries at least 10 kg with ±7 cm x/y and +14 cm z COM variation, survives a 250 N lateral push, keeps cost of transport low, and tracks lateral and yaw commands while running flat out, all on Raspberry-Pi-class compute. A 70° pitch/roll cutoff ends a run, a pre-deployment simulation safety gate uses `final.pt`, and each team gets two real attempts. Judged 25% hidden simulation evaluation, 60% timed 100 m real-world dash, 10% technical report and 5% novelty presentation.
+- **Domain:** Reinforcement Learning, Wheeled-Legged Locomotion, Legged Robotics, Sim-to-Real Transfer, Control Systems, Embodied AI
+- **PDF:** [View PDF](InterIIT_Tech_Meet_PDFs/2026_MidPrep_xTerra.pdf)
+
+##### Ethereum Foundation
+
+- **Prep Level:** MID
+- **Summary:** Build an open-source access layer between an existing open-source AI model and an Ethereum wallet, so users can request transactions in natural language while retaining custody and signing authority. The system must interpret intent, ask when details are missing, distinguish explaining, preparing and signing, enforce spending limits and ongoing permissions, keep keys and seed phrases out of model inputs, requests and logs, and resist prompt injection from websites, documents and tool output. An eligibility gate disqualifies team-held keys or unchecked server signing; scoring is 20 user control, 15 privacy, 20 intent and signing permissions, 20 attack resistance, 15 reproducibility and failure analysis, and 10 presentation.
+- **Domain:** AI Agents, Ethereum, Wallet Security, Natural-Language Interfaces, Permission Systems, Prompt-Injection Defence, Privacy, Web3
+- **PDF:** [View PDF](InterIIT_Tech_Meet_PDFs/2026_MidPrep_EthereumFoundation.pdf)
+
+##### LPL Financial
+
+- **Prep Level:** MID
+- **Summary:** Build an Advisor Transition Intelligence solution that compares a client's current portfolio with one or more proposed strategies and quantifies the true net benefit after returns, fees, taxes, exit and surrender charges, risk, liquidity and retirement-income impact. The system must back-test both strategies over configurable 1, 3, 5 and 10-year windows, model outcomes at ages 60, 70, 80 and 90 for multiple client personas under current U.S. federal and state tax rules, recommend transition, partial transition or retention, and generate an investor-ready proposal with transparent assumptions. Judged 20% solution design, 25% research and financial rigour, 35% working execution, 10% responsible AI and data transparency, and 10% presentation.
+- **Domain:** Wealth Management, Financial Planning, Portfolio Analysis, Retirement Modelling, Tax-Aware Investing, Backtesting, Explainable Finance, FinTech
+- **PDF:** [View PDF](InterIIT_Tech_Meet_PDFs/2026_MidPrep_LPLFinancial.pdf)
+
+#### Prep Level: NA
+
+##### Students' Academic Conference
+
+- **Prep Level:** NA
+- **Summary:** Present previously published or conference-presented research under the **Navonmesh Bharat** theme in one of three categories: computer science, AI and data science, electrical/electronics and communication, and robotics and mechatronics; mechanical, aerospace and industrial, civil, environmental and earth systems, chemical, bio and energy engineering, and materials science and nanotechnology; or physics, chemistry, mathematics and statistics, finance, management, humanities and social sciences, policy and allied interdisciplinary fields. Papers must have been presented at a conference or published in a reputed journal, with a currently enrolled student as first author (a professor may lead only if from the same institute and a currently enrolled student is the first student author). Each IIT may submit one paper per category and three overall, and no paper may enter more than one category. By **1 December 2026** teams submit proof of presentation or publication with its date, a poster covering title, abstract, methodology and results, and a slide deck; scoring is 40 points per paper — 10 for on-time submission, 20 for presentation and poster, and 10 for a top-three category finish — while the first-round 100-point rubric weights methodology and correctness at 30 and originality and significance at 30, with 10 each for literature review, organisation and clarity, figures and tables, and title, abstract and professionalism.
+- **Domain:** Academic Research, Research Presentation, Interdisciplinary Engineering, Poster Design, Scientific Writing, Science and Technology Policy
+- **PDF:** [View PDF](InterIIT_Tech_Meet_PDFs/2026_NA_SAC.pdf)
+
+##### Engineers' Conclave
+
+- **Prep Level:** NA
+- **Summary:** Showcase student-built engineering projects under the **Navonmesh Bharat** theme, with at least one currently registered student as an active collaborator and eligibility through any one of: a filed and accepted patent, attestation from a faculty advisor for a student technical team affiliated with the Dean (R&D), attestation from a professor for a faculty-student collaboration, or proof of a genuine patent application submitted to the institute's R&D administration. Each IIT may submit at most two projects, and for patent-based entries at least one currently registered student must be a principal inventor while the participating IIT must be named in the patent documentation. By **1 December 2026** teams deliver a slide deck covering the problem statement and proposed solution, a poster with title, abstract, methodology and results, a working or demonstrable prototype, and proof of patent filing or acceptance and of industry collaboration where applicable. Scoring totals 60: 10 for on-time submission, 20 for presentation and poster, 20 for prototype functionality and technical maturity, 5 for patent filing or acceptance and 5 for industry collaboration or technology transfer.
+- **Domain:** Engineering Innovation, Prototyping, Patent Filing, Technology Transfer, Industry Collaboration, Project Showcase
+- **PDF:** [View PDF](InterIIT_Tech_Meet_PDFs/2026_NA_EC.pdf)
 
 ### 2025 (14.0) - IIT Patna - Resonating Cascades
 
