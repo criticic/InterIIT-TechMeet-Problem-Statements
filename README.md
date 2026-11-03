@@ -69,6 +69,13 @@ A year-by-year archive of problem statements from the Inter-IIT Tech Meet, with 
 - **Domain:** Wealth Management, Financial Planning, Portfolio Analysis, Retirement Modelling, Tax-Aware Investing, Backtesting, Explainable Finance, FinTech
 - **PDF:** [View PDF](InterIIT_Tech_Meet_PDFs/2026_MidPrep_LPLFinancial.pdf)
 
+##### Drona Aviation
+
+- **Prep Level:** MID
+- **Summary:** Build a multi-drone swarm platform on Drona Aviation's Pluto drones that executes predefined formations with synchronised wave effects in simulation and on physical hardware. Two mandatory tasks are a four-drone line formation with a sequential wave and a four-drone circular formation with a coordinated wave, both maintaining formation geometry and safe separation. The stack must cover trajectory generation, external vision-based localisation with drone identification, closed-loop position drift correction, collision checks, pre-flight validation, live monitoring and safe handling of localisation or communication loss, with an architecture that scales from four toward ten drones. Physical execution dominates scoring: 40% physical swarm execution and formation accuracy, 20% localisation and drift correction, 15% synchronisation and trajectory execution, 10% safety and fault handling, 10% simulation and algorithm development, and 5% software architecture and documentation.
+- **Domain:** Aerial Robotics, Multi-Drone Swarms, Formation Control, Trajectory Planning, External Vision Localisation, Drift Correction, ROS 2, Embedded Systems
+- **PDF:** [View PDF](InterIIT_Tech_Meet_PDFs/2026_MidPrep_DronaAviation.pdf)
+
 #### Prep Level: NA
 
 ##### Students' Academic Conference
