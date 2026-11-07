@@ -76,6 +76,13 @@ A year-by-year archive of problem statements from the Inter-IIT Tech Meet, with 
 - **Domain:** Aerial Robotics, Multi-Drone Swarms, Formation Control, Trajectory Planning, External Vision Localisation, Drift Correction, ROS 2, Embedded Systems
 - **PDF:** [View PDF](InterIIT_Tech_Meet_PDFs/2026_MidPrep_DronaAviation.pdf)
 
+##### Adobe
+
+- **Prep Level:** MID
+- **Summary:** Build an AI-powered personalised learning buddy for the team's own institute that understands each student's background and goal, diagnoses skill gaps, and creates an adaptive multi-semester plan grounded in the institute's curriculum, academic rules and open learning resources. The required loop is assess → personalise → learn → practise → adapt → demonstrate mastery, with plans validated against credit limits, prerequisites, semester offerings and student preferences; adaptation driven by continuous assessment and activity signals; explainable multi-turn conversation with long-term memory; and mastery judged by evidence such as projects, mock tests or interviews rather than course completion alone. Teams must also build the knowledge base covering one or two programmes in depth, 50–100+ varied student profiles, survey-derived personas and a product/UX case. The prototype must start with `docker compose up` on linux/amd64, need no GPU, stay under 5 GB, route all LLM and embedding calls through LiteLLM environment variables, and contain no secrets. Judged 15% each for data and knowledge base, personalisation, adaptation, mastery evaluation, user experience/design and product thinking, plus 10% engineering.
+- **Domain:** AI/ML, Personalised Learning, Recommender Systems, LLM Agents, Retrieval-Augmented Generation, Knowledge Graphs, Learning Analytics, EdTech, Product Design, UX
+- **PDF:** [View PDF](InterIIT_Tech_Meet_PDFs/2026_MidPrep_Adobe.pdf)
+
 #### Prep Level: NA
 
 ##### Students' Academic Conference
